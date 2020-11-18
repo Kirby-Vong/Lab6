@@ -21,6 +21,7 @@ class Container {
             this->sort_function = sort_function;
         } // set the type of sorting algorithm
 
+
         /* Pure Virtual Functions */
         // push the top pointer of the tree into container
         virtual void add_element(Base* element) = 0;

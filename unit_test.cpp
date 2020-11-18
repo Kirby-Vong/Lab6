@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 
 #include "op.hpp"
+
 #include "add.hpp"
 #include "sub.hpp"
 #include "mult.hpp"
@@ -8,7 +9,7 @@
 #include "pow.hpp"
 #include "rand.hpp"
 #include "list_container_test.hpp"
-//#include "ListContainer.h"
+#include "VectorContainer_test.hpp"
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
